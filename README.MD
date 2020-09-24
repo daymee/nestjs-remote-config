@@ -1,9 +1,5 @@
 # NestJS-RemoteConfig
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 The RemoteConfig module could be used when you need share config storage across all your microservices. You can use namespaces to separate config data.
 
   - Works with Firestore
