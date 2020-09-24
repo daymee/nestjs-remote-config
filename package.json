@@ -1,6 +1,6 @@
 {
   "name": "nestjs-remote-firebase-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Config module which uses FirebaseFirestone as a config store",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,14 @@
     "build": "rimraf dist && tsc",
     "prepublish": "npm run build"
   },
-  "keywords": ["nestjs config", "firestore", "remote config", "shared config", "config service", "daymee opensourse"],
+  "keywords": [
+    "nestjs config",
+    "firestore",
+    "remote config",
+    "shared config",
+    "config service",
+    "daymee opensourse"
+  ],
   "author": "Vladislav Len <heavenly.beta@gmail.com>",
   "license": "ISC",
   "repository": "https://github.com/daymee/nestjs-remote-config",
