@@ -9,6 +9,7 @@
     "build": "rimraf dist && tsc",
     "prepublish": "npm run build"
   },
+  "keywords": ["nestjs config", "firestore", "remote config", "shared config", "config service", "daymee opensourse"],
   "author": "Vladislav Len <heavenly.beta@gmail.com>",
   "license": "ISC",
   "repository": "https://github.com/daymee/nestjs-remote-config",
