@@ -61,7 +61,6 @@ First of all, you should be familiar with firebase firestone
 ### Receiving config value
 
 ```ts
-
 @Injectable()
 export class AppService {
     constructor(
@@ -73,12 +72,4 @@ export class AppService {
       const param = this.configService.getConfig<Number>('account', 'bonus_amount');
     } 
 }
-
-
-
-
-
-
-
-
 ```
