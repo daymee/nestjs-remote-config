@@ -1,6 +1,6 @@
 # NestJS-RemoteConfig
 
-The RemoteConfig module could be used when you need share config storage across all your microservices. You can use namespaces to separate config data.
+The RemoteConfig module could be used when you need to share config storage across all your microservices. You can use namespaces to separate config data.
 
   - Works with Firestore
   - Supports namespaces
@@ -29,7 +29,7 @@ Import the package
 import { EStoreType, RemoteConfigModule } from 'nestjs-remote-firebase-config';
 ```
 
-Then you should registed the package on the top level of the application
+Then you should register the package on the top level of the application
 
 ```ts
 @Module({
@@ -45,13 +45,13 @@ export class AppModule {}
 
 ### How to set up config variables
 
-First of all, you should be familiar with firebase firestone
+First of all, you should be familiar with Firebase firestore
 
 [Firestone docs!](https://firebase.google.com/docs/firestore)
 
 > Remote config package by default searches for the `configuration` collection to get all available configs (documents)
 
-*Example of config setup in firestone*
+*Example of config setup in firestore*
 
 ![ConfigExample](images/setup-example.jpg)
 
