@@ -1,7 +1,7 @@
-import { EStoreType } from "../enums/store.type.enum";
+import { EStoreType } from "../enums";
 import { IFirebaseOpts } from "./firebase.store.opts";
 
 export interface IModuleOpts {
   store: EStoreType,
-  opts: IFirebaseOpts | any,
+  opts?: IFirebaseOpts | any,
 }

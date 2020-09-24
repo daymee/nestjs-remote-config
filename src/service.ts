@@ -11,7 +11,7 @@ export class FirebaseRemoteConfigService implements IRemoteConfigStore, OnModule
   private firestore: Firestore;
   private config: any = {};
 
-  constructor(opts: IFirebaseOpts | Settings) {
+  constructor(opts?: IFirebaseOpts | Settings) {
     this.firestore = new Firestore(opts);
     this.fetchConfig();
   }
